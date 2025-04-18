@@ -1,0 +1,18 @@
+{
+    "manifest_version": 3,
+    "name": "Mindful YouTube",
+    "version": "1.0",
+    "description": "A Chrome extension that prompts you to reflect before watching videos on YouTube to ensure they align with your goals.",
+    "author": "Created with the assistance of ChatGPT by OpenAI",
+    "permissions": [],
+    "host_permissions": [
+      "https://www.youtube.com/*"
+    ],
+    "content_scripts": [
+      {
+        "matches": ["https://www.youtube.com/*"],
+        "js": ["content.js"],
+        "run_at": "document_idle"
+      }
+    ]
+  }
