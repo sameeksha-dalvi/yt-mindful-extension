@@ -25,4 +25,4 @@ Created with the assistance of ChatGPT, an AI by OpenAI.
 
 Here's what the extension's prompt looks like when it appears:
 
-![Extension Prompt](screenshots/extension-prompt.png)
+![Extension Prompt](screenshots/extension_prompt.png)
